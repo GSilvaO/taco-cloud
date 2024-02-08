@@ -1,4 +1,4 @@
-package com.gsilva.tacocloud.tacocloud;
+package com.gsilva.tacocloud.tacos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
