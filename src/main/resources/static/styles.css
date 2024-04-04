@@ -1,0 +1,7 @@
+.validationError {
+    color: red;
+}
+
+.ingredient-group {
+    column-count: 2;
+}
