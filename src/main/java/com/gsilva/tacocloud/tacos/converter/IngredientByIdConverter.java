@@ -1,13 +1,9 @@
 package com.gsilva.tacocloud.tacos.converter;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
 import com.gsilva.tacocloud.tacos.domain.Ingredient;
-import com.gsilva.tacocloud.tacos.domain.Type;
 import com.gsilva.tacocloud.tacos.repository.IngredientRepository;
 
 @Component

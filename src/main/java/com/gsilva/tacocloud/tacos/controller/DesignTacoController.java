@@ -1,12 +1,8 @@
 package com.gsilva.tacocloud.tacos.controller;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
@@ -26,9 +22,7 @@ import com.gsilva.tacocloud.tacos.repository.IngredientRepository;
 import jakarta.validation.Valid;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
 
 
