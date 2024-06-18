@@ -3,7 +3,7 @@ package com.gsilva.tacocloud.tacos.converter;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
-import com.gsilva.tacocloud.tacos.domain.Ingredient;
+import com.gsilva.tacocloud.tacos.domain.ingredient.Ingredient;
 import com.gsilva.tacocloud.tacos.repository.IngredientRepository;
 
 @Component

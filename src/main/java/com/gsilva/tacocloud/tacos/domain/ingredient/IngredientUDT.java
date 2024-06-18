@@ -1,4 +1,4 @@
-package com.gsilva.tacocloud.tacos.domain;
+package com.gsilva.tacocloud.tacos.domain.ingredient;
 
 import org.springframework.data.cassandra.core.mapping.UserDefinedType;
 

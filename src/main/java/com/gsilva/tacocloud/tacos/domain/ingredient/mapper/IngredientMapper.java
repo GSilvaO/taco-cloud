@@ -1,7 +1,7 @@
-package com.gsilva.tacocloud.tacos.domain.mapper;
+package com.gsilva.tacocloud.tacos.domain.ingredient.mapper;
 
-import com.gsilva.tacocloud.tacos.domain.Ingredient;
-import com.gsilva.tacocloud.tacos.domain.IngredientUDT;
+import com.gsilva.tacocloud.tacos.domain.ingredient.Ingredient;
+import com.gsilva.tacocloud.tacos.domain.ingredient.IngredientUDT;
 
 public class IngredientMapper {
     public static IngredientUDT toIngredientUDT(Ingredient ingredient) {

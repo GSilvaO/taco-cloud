@@ -1,4 +1,4 @@
-package com.gsilva.tacocloud.tacos.domain;
+package com.gsilva.tacocloud.tacos.domain.ingredient;
 
 public enum Type {
     WRAP,

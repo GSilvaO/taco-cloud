@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import com.gsilva.tacocloud.tacos.domain.Ingredient;
-import com.gsilva.tacocloud.tacos.domain.Taco;
-import com.gsilva.tacocloud.tacos.domain.TacoOrder;
-import com.gsilva.tacocloud.tacos.domain.Type;
+import com.gsilva.tacocloud.tacos.domain.ingredient.Ingredient;
+import com.gsilva.tacocloud.tacos.domain.ingredient.Type;
+import com.gsilva.tacocloud.tacos.domain.taco.Taco;
+import com.gsilva.tacocloud.tacos.domain.taco.TacoOrder;
 import com.gsilva.tacocloud.tacos.repository.IngredientRepository;
 
 import jakarta.validation.Valid;

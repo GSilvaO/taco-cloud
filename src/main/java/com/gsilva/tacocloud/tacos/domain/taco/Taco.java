@@ -1,4 +1,4 @@
-package com.gsilva.tacocloud.tacos.domain;
+package com.gsilva.tacocloud.tacos.domain.taco;
 
 import java.util.Date;
 import java.util.List;
@@ -11,7 +11,9 @@ import org.springframework.data.cassandra.core.mapping.PrimaryKeyColumn;
 import org.springframework.data.cassandra.core.mapping.Table;
 
 import com.datastax.oss.driver.api.core.uuid.Uuids;
-import com.gsilva.tacocloud.tacos.domain.mapper.IngredientMapper;
+import com.gsilva.tacocloud.tacos.domain.ingredient.Ingredient;
+import com.gsilva.tacocloud.tacos.domain.ingredient.IngredientUDT;
+import com.gsilva.tacocloud.tacos.domain.ingredient.mapper.IngredientMapper;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;

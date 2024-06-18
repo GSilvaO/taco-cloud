@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 
-import com.gsilva.tacocloud.tacos.domain.TacoOrder;
+import com.gsilva.tacocloud.tacos.domain.taco.TacoOrder;
 import com.gsilva.tacocloud.tacos.repository.OrderRepository;
 
 import jakarta.validation.Valid;
